@@ -2,7 +2,7 @@
   <div class="container">
     <a class="navbar-brand d-flex align-items-center gap-2" href="/">
       <img
-      src="{{ site.logo }}" alt="Electron Workshop" width="132" height="56" class="rounded"/>
+      src="{{ site.logo }}" alt="{{ site.title }}" width="132" height="56" class="rounded"/>
     <span class="fw-semibold text-primary fs-3">{{ site.title }}</span>
     </a>
     <div>
@@ -39,7 +39,7 @@
     <div class="modal-content border-0 shadow-lg">
       <div class="modal-header border-0 pb-0">
         <h5 class="modal-title text-primary fw-semibold" id="searchModalLabel">
-          <i class="bi bi-search me-2"></i>Search Events & Content
+          <i class="bi bi-search me-2"></i>{{ site.searchTitle | default("Search") }}
         </h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
@@ -49,7 +49,7 @@
             type="text"
             class="form-control form-control-lg border-primary"
             id="searchInput"
-            placeholder="Search events, tutorials, discussions..."
+            placeholder="{{ site.searchPlaceholder | default('Search content...') }}"
             oninput="performSearch()"/>
         </div>
         <div

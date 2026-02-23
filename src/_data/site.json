@@ -5,5 +5,7 @@
   "favicon": "/assets/images/favicon.svg",
   "baseUrl": "/",
   "timezone": "Australia/Sydney",
-  "dateFormat": "dddd, Do MMMM YYYY"
+  "dateFormat": "dddd, Do MMMM YYYY",
+  "searchTitle": "Search",
+  "searchPlaceholder": "Search events, posts and pages..."
 }
