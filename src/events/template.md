@@ -33,10 +33,10 @@ featured: false
 <!-- ============================================================
      NUNJUCKS WARNING
      This file is processed as Nunjucks BEFORE Markdown.
-     Do NOT use {{ }} or {% %} in content unless you intend
-     Nunjucks template syntax. To print a literal {{ use:
-       {{ '{{' }}
-     or wrap a block with {% raw %}...{% endraw %}
+     Do NOT write curly-brace expressions or block tags in content
+     unless you intend Nunjucks syntax.
+     To print a literal double-brace, use: {{ '{{' }}
+     To protect a whole block: wrap it in raw/endraw block tags.
      ============================================================ -->
 
 ### {{ title }}
