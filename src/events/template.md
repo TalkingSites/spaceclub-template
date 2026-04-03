@@ -6,9 +6,9 @@ eventDate: 2026-01-01
 # OPTIONAL
 description: A short summary shown in event cards and meta tags.
 
-# Time format: 9:00AM / 2:30PM / 14:00 — used for "upcoming" vs "past" cutoff
-startTime: 9:00AM
-endTime: 5:00PM
+# Time format: 09:00 / 14:30 (24-hour) — used for "upcoming" vs "past" cutoff
+startTime: 09:00
+endTime: 17:00
 
 # Multi-line location: use \n for line breaks
 location: "Venue Name \n 123 Street, City"
